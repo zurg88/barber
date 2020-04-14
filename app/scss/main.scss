@@ -470,6 +470,11 @@ li {
 	}
 }
 
+.zero-opacity {
+	opacity: 0;
+	transition: all 1s;
+}
+
 
 // MASSAGE PAGE
 
@@ -615,5 +620,42 @@ li {
 }
 
 }
+
+//footer
+
+.main-footer {
+	display: flex;
+	flex-direction: row;
+	margin-top: 40px;
+	position: relative;
+}
+
+.footer-info-block {
+	display: flex;
+	flex-direction: column;
+	margin: 40px 90px;
+	padding: 50px;
+	text-align: center;
+	position: absolute;
+	z-index: 1;
+	left: 150px;
+	top: 25%;
+	background-color: #fff;
+}
+
+.gallery {
+	margin-left: 385px;
+}
+
+.gallery-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.gallery-list-item {
+	transition: all 6s;
+}
+
+
 
 @import "media"; // Always at the end
